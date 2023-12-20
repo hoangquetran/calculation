@@ -1,0 +1,68 @@
+body {
+  background-image: url(../images/bgmain.png);
+  background-size: cover;
+}
+
+.MuiContainer-root.container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 0 8px 6px rgba(239, 239, 239, 0.82);
+}
+
+.MuiContainer-root .button {
+  background-color: #3a3c69;
+  border-radius: 10px;
+  width: calc(25% - 4px);
+  height: calc(25% - 4px);
+  color: #fdfdfd;
+  font-weight: 700;
+  font-size: 16px;
+  min-width: auto;
+  margin: 2px;
+}
+.MuiContainer-root .button:hover {
+  background-color: #7072a7;
+}
+.MuiContainer-root .input-result {
+  background-color: #3a3c69;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.MuiContainer-root .input-result input {
+  color: #fdfdfd;
+  font-size: 20px;
+}
+.MuiContainer-root .input-result fieldset {
+  border: none;
+}
+
+.MuiContainer-root .box-welcome {
+  width: 75%;
+  margin: 0 auto 1rem;
+  overflow-x: hidden;
+}
+
+.MuiContainer-root .welcome {
+  font-family: "Nabla variant0", Tofu;
+  letter-spacing: 0.1rem;
+  animation-name: rightToLeft;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-bottom: 0;
+  color: #43d533;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+/* keyframes */
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(-200px);
+  }
+}
